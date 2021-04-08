@@ -1,0 +1,30 @@
+<div class="main">
+    <div class="logincard">
+
+        <div class="logintitle">
+            Login
+        </div>
+        <div class = "error" *ngIf = "error">
+            {{errormessage}}
+        </div>
+        <div class="loginfield">
+            <form [formGroup]="form" class="input">
+                <input placeholder="Enter ID" formControlName="userid" type="email" class="ip" *ngIf="!milid">
+                <div *ngIf="milid" class="errormsg">
+                    <input placeholder="Enter ID" formControlName="userid" type="text" class="ip iperror">
+                </div>
+                <input placeholder="Enter Password" formControlName="password" type="password" class="ip" *ngIf="!password">
+            </form>
+            <div class="submit" (click)="submit()">
+                <div class="submitbutton">
+                    Login
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+</div>

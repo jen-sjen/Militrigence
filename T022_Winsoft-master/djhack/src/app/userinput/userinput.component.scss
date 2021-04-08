@@ -1,0 +1,440 @@
+.main{
+    background-image: url("../../assets/images/bluebg.png");
+    height: 95vh;
+    display: flex;
+    background-size: 100% 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-width: 100vw;
+}
+
+.decryptcard{
+    // border: salmon solid thick;
+    // width: 95%;
+    //display: flex;
+    //flex-direction: column;
+    //justify-content: space-evenly;
+    // left: 350px;
+    // width: 775px;
+    height: 100%;
+    //border: solid aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    // color: salmon;
+    // font-size: large;
+    // border: 15px solid green;
+    // padding: 40px;
+    // margin: 20px;
+    // margin-bottom: 60%;
+}
+
+.decrypt{
+    // color: salmon;
+    color: rgb(236, 48, 15);
+    font-size: 250%;
+    height: fit-content;
+    text-align: center;
+    //background-color: aqua;
+    // text-align: center;
+}
+
+.decryptmess{
+    border: blanchedalmond solid;
+    height: 5vh;
+    color:rgb(0,218,255);
+    background-color: black;
+    font-size: 250%;
+    text-align: center;
+}
+.card1_title{
+    // border: salmon solid thick;
+    width: 30vw;
+    height: 10vh;
+    // color: salmon;
+    text-align: center;
+    // font-size: large;
+    // border: 15px solid green;
+    // padding: 50px;
+    margin: 5px;
+
+}
+.lc{
+    color: red;
+    font-size: 200%;
+}
+
+.card1{
+    //border: solid black;
+    height: 40vh;
+    width: 20vw;
+    //margin-left: 5%;
+    //margin-top: 1%;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 3px  black;
+    // align-self: ;
+    // display: inline-block;
+    // vertical-align: 20%;
+    float: left;
+    justify-content: start;
+}
+
+.places{
+    // justify-content: start;
+    align-self: flex-start;
+    justify-content: space-evenly;
+    font-size: 200%;
+    font-family: inherit;
+    margin-left: 5%;
+    color: black;
+
+}
+
+// .card2_title{
+//     border: salmon solid thick;
+//     width: 30vw;
+//     height: 10vh;
+//     // color: salmon;
+//     text-align: center;
+//     // font-size: large;
+//     // border: 15px solid green;
+//     // padding: 50px;
+//     margin: 5px;
+//     margin-left: 60%;
+
+// }
+// .lc2{
+//     color: red;
+//     font-size: 200%;
+// }
+
+.card2{
+    //border: solid black;
+    height: 40vh;
+    width: 20vw;
+    //margin-right: 5%;
+    // margin-bottom: 2%;
+    //margin-top: 4%;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 3px  black;
+    // display: inline-flex;
+    float: right;
+    justify-content: left;
+
+}
+
+.cont{
+    display: flex;
+    // border: salmon solid;
+    justify-content: center;
+    // height: 10vh;
+    // width: 20vw;
+    // margin-top: 32%;
+    // margin-left: 60%;
+    // justify-self: center;
+    // justify-content: space-evenly;
+    // margin-right: auto;
+    // margin-left: auto;
+    // // background-color: rgb(0,0,0);
+    // padding-left: 10%;
+    // margin-left: 31%;
+    
+}
+
+.continue{
+    border: rgb(0,218,255) solid;
+    border-radius: 20%;
+//   box-shadow: rgb(0,218,255) thick;
+//   width: fit-content;
+    align-self: center;
+    //padding: 2% 5% ;
+    font-size: 150%;
+    height: 10vh;
+    color: rgb(0,218,255);
+    background-color: rgb(0,0,0);
+    height: 10vh;
+    width: 20vw;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+//   font-size: larger;
+
+}
+
+.place{
+    //border: black solid;
+    //background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    padding:5px;
+}
+
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+// .ipp{
+
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     font-size: 150%;
+// }
+// label {
+    
+//     //padding-left: 15px;
+//     //text-indent: -5px;
+//     color: rgb(8, 16, 17);
+//     font-size: 100%;
+//   }
+// input {
+//     width: 13px;
+//     height: 13px;
+//     padding: 0;
+//     margin:0;
+//     margin-right: 50%;
+//     // vertical-align: bottom;
+//     // margin-top: 10%;
+//     vertical-align: sub;
+//     position: relative;
+//     top: -5px;
+//     *overflow: hidden;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-between;
+//   }
+
+// // :checked {
+// //     align-self: flex-end;;
+// //     border: 1px solid blue;
+// //   }
+
+// // #acceptTerms{
+// //     align-self: flex-end;;
+// //     border: 1px solid blue;
+
+// // }
+
+// // .form-check-label1{
+
+// // }
+// // .form-check-label2{
+
+// // }
+// // .form-check-label3{
+
+// // }
+// // .form-check-label4{
+
+// // }
+// // .form-check-label5{
+
+// // }
+// // .form-check-label6{
+
+// // }
+// // .form-check-label7{
+
+// // }
+// // .form-check-label8{
+
+// // }
+// // .form-check-label9{
+
+// // }
+// // .form-check-label10{
+
+// // }
+// // .form-check-label11{
+
+// // }
+
+
+// // .profilefield{
+// //     // border: solid pink;
+// //     flex-basis: 90%;
+// //     display: flex;
+// //     flex-direction: column;
+// //     justify-content: space-evenly;
+// .main{
+//   background-image: url("../../assets/images/bluebg.png");
+//   min-height: 100vh;
+//   display: flex;
+//   background-size: 100% 100%;
+//   flex-direction: column;
+//   justify-content: center;
+//   min-width: 100vw;
+//   z-index: auto;
+// }
+
+// .decryptcard{
+//   position: relative;
+//   top: 15%;
+//   height: 98vh;
+//   text-align: center;
+// }
+
+// .decrypt{
+//   color: rgb(236, 48, 15);
+//   font-size: 250%;
+// }
+
+// .decryptmess{
+//   border: blanchedalmond solid;
+//   height: 8vh;
+//   color:rgb(0,218,255);
+//   background-color: black;
+//   font-size: 250%;
+//   margin-top: 2%;
+//   text-align: center;
+// }
+
+// .card1{
+//   height: 50vh;
+//   width: 20vw;
+//   margin-left: 5%;
+//   background-color: rgba(255, 255, 255, 0.5);
+//   display: flex;
+//   flex-direction: column;
+//   box-shadow: 1px 1px 3px  black;
+//   vertical-align: 20%;
+//   float: left;
+
+// }
+// .card2{
+//   height: 60vh;
+//   width: 20vw;
+//   margin-right: 5%;
+//   margin-top: 4%;
+//   background-color: rgba(255, 255, 255, 0.5);
+//   display: flex;
+//   flex-direction: column;
+
+//   box-shadow: 1px 1px 3px  black;
+//   float: right;
+//   justify-content: space-around;
+// }
+
+// .cont{
+//   display: flex;
+//   flex-direction: column;
+//   flex-basis: 2%;
+//   justify-content: center;
+//   height: 10vh;
+//   width: 20vw;
+//   margin-top: 32%;
+//   margin-left: 60%;
+//   justify-self: center;
+//   justify-content: space-evenly;
+//   margin-right: auto;
+//   margin-left: auto;
+//   padding-left: 10%;
+//   margin-left: 31%;
+
+// }
+
+// .continue{
+//   border: rgb(0,218,255) solid;
+//   border-radius: 20%;
+//   align-self: center;
+//   padding: 2% 5% ;
+//   font-size: 150%;
+//   height: 10vh;
+//   color: rgb(0,218,255);
+//   background-color: rgb(0,0,0);
+//   height: 10vh;
+//   width: 20vw;
+//   justify-content: center;
+//   margin-right: auto;
+//   margin-left: auto;
+//   cursor: pointer;
+
+// }
+
+// label {
+//   display: block;
+//   padding-left: 15px;
+//   text-indent: -5px;
+//   color: rgb(8, 16, 17);
+// }
+
+// input {
+//   width: 13px;
+//   height: 13px;
+//   padding: 0;
+//   margin:0;
+//   margin-right: 50%;
+//   vertical-align: sub;
+//   position: relative;
+//   top: -5px;
+//   *overflow: hidden;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+// }
+
+// .inline {
+//   display: inline-block;
+//   // text-align: left;
+// }
+// :checked {
+//     align-self: flex-end;;
+//     border: 1px solid blue;
+//   }
+
+// #acceptTerms{
+//     align-self: flex-end;;
+//     border: 1px solid blue;
+
+// }
+
+// // .form-check-label1{
+
+// // }
+// // .form-check-label2{
+
+// // }
+// // .form-check-label3{
+
+// // }
+// // .form-check-label4{
+
+// // }
+// // .form-check-label5{
+
+// // }
+// // .form-check-label6{
+
+// // }
+// // .form-check-label7{
+
+// // }
+// // .form-check-label8{
+
+// // }
+// // .form-check-label9{
+
+// // }
+// // .form-check-label10{
+
+// // }
+// // .form-check-label11{
+
+// // }
+
+
+// // .profilefield{
+// //     // border: solid pink;
+// //     flex-basis: 90%;
+// //     display: flex;
+// //     flex-direction: column;
+// //     justify-content: space-evenly;

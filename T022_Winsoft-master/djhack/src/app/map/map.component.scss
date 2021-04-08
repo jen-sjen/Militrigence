@@ -1,0 +1,86 @@
+.main{
+    height: 95vh;
+    //background-image: url("../../assets/images/military1.png");
+    //background-size: 100% 100%;
+    //display: flex;
+    //flex-direction: column;
+    //justify-content: space-evenly;
+    position: absolute;
+    width: 100vw;
+    background-image: url("../../assets/images/land.png");
+    background-size: 100% 100%;
+}
+
+.map{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    //background-image: linear-gradient(to bottom,black, rgb(71, 71, 71));
+    background-color: rgba(255, 255, 255, 0.555);
+    width: 100vw;
+}
+.row{
+    flex-basis: 33%;
+    width: 100vw;
+    //height: 33.3vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.node{
+    flex-basis: 8%;
+    border: solid aqua;
+    margin: 4% 2%;
+    border-radius: 50%;
+    background-color:rgb(37, 132, 200);
+    z-index: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+}
+
+.hide{
+    opacity: 0;
+}
+
+.line{
+    position: absolute;
+    //top: 50%;
+    width: 16.5%;
+    border: solid black thin;
+    z-index: 0;
+    //left: 8.25%;
+}
+
+.lineslant{
+    width: 23.3%;
+    transform: rotateZ(-45deg);
+    transform-origin: 0%;
+}
+
+.lineslanto{
+    transform: rotateZ(45deg);
+}
+
+.marker{
+    color: black;
+    //color: rgb(215, 252, 0);
+    //color: rgb(255, 240, 0);
+    font-size: 500%;
+    position: absolute;
+    z-index: 3;
+}
+
+.infil{
+    background-color: rgb(252, 102, 102);
+    border: red solid;
+}
+
+.desired{
+    background-color: rgb(57, 255, 20);
+    border: green solid;
+}

@@ -1,0 +1,40 @@
+<!-- <div class="main">
+    <div class="warning">
+        <div class="text_warn">
+            WARNING: THIS SITE CONTAINS CONFIDENTIAL INFORMATION!!<br>{{decoded}}<br>{{infiltrated}}
+
+        </div>
+
+    </div>
+    <div class="encrypt">
+        <form [formGroup]="form" class="input">
+            <input type="text" class="ip" formControlName="message" placeholder="Enter the encrypted message">
+            <input type="text" class="ip" formControlName="key" placeholder="Enter the key">
+        </form>
+    </div>
+
+    <div class="decrypt">
+        <div class="decryptbutton" (click) = "submit()">
+            DECRYPT
+
+        </div>
+    </div>
+
+</div> -->
+
+<div class="main">
+    <div class="encrypt">
+        <form [formGroup]="form" class="input">
+            <textarea  type="text" class="ip" placeholder="Enter the encrypted message" style="color: aqua;"formControlName="message"></textarea>
+            <input type="text" class="key" placeholder="Key" style="color: aqua;" formControlName="key">
+        </form>
+        <!-- <textarea  type="text" class="ip" placeholder="Enter the encrypted message" style="color: aqua;">
+        <input type="text" class="key" placeholder="Key" style="color: aqua;"> -->
+    </div>
+
+    <div class="decrypt">
+        <button class="decryptbutton button" (click) = "submit()">
+            DECRYPT
+        </button>
+    </div>
+</div>

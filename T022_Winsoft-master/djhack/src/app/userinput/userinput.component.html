@@ -1,0 +1,152 @@
+<div class="main">
+    <div class="decryptcard">
+        <div class="decrypt">
+            DECRYPTED MESSAGE
+        </div>
+        <div class="decryptmess">
+            {{this.app.messageapp}}
+
+        </div>
+        <div >
+            <div style="display: flex; justify-content: space-evenly; height: 80%;">
+                <!-- <div class="card1_title">
+                <div class="lc">
+                    The locations found are:
+                </div>
+
+            </div> -->
+                <div class="card1">
+                    <!-- {{this.app.placesapp}} -->
+                    <div *ngFor="let i of names" class="places">
+                        {{i}}
+                    </div>
+                    <!-- <div class="form-group form-check">
+                    <input type="checkbox" formControlName="place1" id="acceptTerms" class="form-check-input" />
+                        <label for="acceptTerms" class="form-check-label1"><div *ngFor="let i of names">
+                            <span *ngFor="let j of i">
+                                {{j}}
+                            </span>
+                        </label>
+                    <div *ngFor="let i of names">
+                        <span *ngFor="let j of i">
+                            {{j}}
+                        </span>
+                    </div>
+
+                </div> -->
+
+                </div>
+
+                <!-- <div class="card2_title">
+                <div class="lc2">
+                    Txyz
+                </div>
+
+            </div> -->
+                <!-- <div class="card2">
+        <form [formGroup]="form">
+          <form [formGroup]="form" (ngSubmit)="submit()">
+
+          <div class="form-group">
+            <div *ngFor="let base of baseList">
+              <label class="inline">
+                <input type="checkbox" [value]="base.id" (change)="onCheckboxChange($event)" class="inline" />
+                  {{base.name}}
+
+              </label>
+            </div>
+          </div>
+
+          <button class="btn btn-primary" type="submit" [disabled]="!form.valid">Submit</button>
+        </form>
+      </div> -->
+
+                <div class="card2">
+                    <form [formGroup]="form" class="myform">
+                        <div class=" myform">
+                            <div class="place">
+                                <input type="checkbox" formControlName="place1" id="acceptTerms"
+                                    class="form-check-input ipp" />
+                                <label for="acceptTerms" class="form-check-label">Khardung La</label> </div>
+                            <div class="place">
+                                <input type="checkbox" formControlName="place2" id="acceptTerms"
+                                    class="form-check-input" />
+                                <label for="acceptTerms" class="form-check-label">Lach</label></div>
+                            <div class="place">
+                                <input type="checkbox" formControlName="place3" id="acceptTerms"
+                                    class="form-check-input" />
+                                <label for="acceptTerms" class="form-check-label">Sasser Pass</label></div>
+                            <div class="place">
+                                <input type="checkbox" formControlName="place4" id="acceptTerms"
+                                    class="form-check-input" />
+                                <label for="acceptTerms" class="form-check-label">Gyon</label></div>
+                            <div class="place">
+                                <input type="checkbox" formControlName="place5" id="acceptTerms"
+                                    class="form-check-input" />
+                                <label for="acceptTerms" class="form-check-label">Sia</label></div>
+                            <div class="place">
+                                <input type="checkbox" formControlName="place6" id="acceptTerms"
+                                    class="form-check-input" />
+                                <label for="acceptTerms" class="form-check-label">Zoji La</label></div>
+                            <div class="place">
+                                <input type="checkbox" formControlName="place7" id="acceptTerms"
+                                    class="form-check-input" />
+                                <label for="acceptTerms" class="form-check-label">Indira Col</label></div>
+                            <div class="place">
+                                <input type="checkbox" formControlName="place8" id="acceptTerms"
+                                    class="form-check-input" />
+                                <label for="acceptTerms" class="form-check-label">Rezang</label></div>
+                            <div class="place">
+                                <input type="checkbox" formControlName="place9" id="acceptTerms"
+                                    class="form-check-input" />
+                                <label for="acceptTerms" class="form-check-label">Tanglang La</label></div>
+                            <div class="place">
+                                <input type="checkbox" formControlName="place10" id="acceptTerms"
+                                    class="form-check-input" />
+                                <label for="acceptTerms" class="form-check-label">Pensi La</label></div>
+                            <div class="place">
+                                <input type="checkbox" formControlName="place11" id="acceptTerms"
+                                    class="form-check-input" />
+                                <label for="acceptTerms" class="form-check-label">Mersmik La</label></div>
+
+
+                        </div>
+                        <!-- <div class="form-group form-check">
+            <label class="container">One
+                          <input type="checkbox" checked="checked">
+                          <span class="checkmark"></span>
+                      </label>
+
+            <input type="checkbox" formControlName="place3" id="acceptTerms" class="form-check-input" />
+                      <label for="acceptTerms" class="form-check-label3">Sasser Pass</label>
+                      <input type="checkbox" formControlName="place4" id="acceptTerms" class="form-check-input" />
+                      <label for="acceptTerms" class="form-check-label4">Gyong La</label>
+                      <input type="checkbox" formControlName="place5" id="acceptTerms" class="form-check-input" />
+                      <label for="acceptTerms" class="form-check-label5">Sia La</label>
+                      <input type="checkbox" formControlName="place6" id="acceptTerms" class="form-check-input" />
+                      <label for="acceptTerms" class="form-check-label6">Zoji La</label>
+                      <input type="checkbox" formControlName="place7" id="acceptTerms" class="form-check-input" />
+                      <label for="acceptTerms" class="form-check-label7">Indira Col</label>
+                      <input type="checkbox" formControlName="place8" id="acceptTerms" class="form-check-input" />
+                      <label for="acceptTerms" class="form-check-label8">Rezang La</label>
+                      <input type="checkbox" formControlName="place9" id="acceptTerms" class="form-check-input" />
+                      <label for="acceptTerms" class="form-check-label9">Tanglang La</label>
+                      <input type="checkbox" formControlName="place10" id="acceptTerms" class="form-check-input" />
+                      <label for="acceptTerms" class="form-check-label10">Marsimik La</label>
+                      <input type="checkbox" formControlName="place11" id="acceptTerms" class="form-check-input" />
+                      <label for="acceptTerms" class="form-check-label11">Pensi La</label>  
+          </div> -->
+
+                    </form>
+
+                </div>
+
+            </div>
+            <div class="cont">
+                <button class="continue" (click)="continue()">
+                    Continue to find location
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+<div class = "navbar">
+    <div class = "message">
+      WARNING: CONFIDENTIAL INFORMATION!! UNAUTHORIZED ACCESS WILL BE DEALT WITH SEVERLY!!
+    </div>
+    <a routerLink="/login" class = "logoutbutton" (click) = "logout()" *ngIf = "!logoutbut">
+        Logout
+    </a>
+</div>
+<div class = "main">
+<router-outlet></router-outlet>
+</div>
